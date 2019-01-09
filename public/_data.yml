@@ -1,10 +1,9 @@
 index:
    id: home-page
    description: TODO
+   title: Eine Caro
+   subtitle: punkish astro physics
 
-research:
-   description: TODO
-   pagetitle: Research
 
 about:
    id: about-page

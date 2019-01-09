@@ -23,3 +23,10 @@ git clone git@github.com:dominiclooser/carolinedorn.ch.git
   git commit -am 'deine commit-message'.
   ```
 - `git push` (pusht die aktuelle Version hoch auf den Server), auch wichtig!
+
+# Dein Content
+- harp.yml
+- public/_data.yml
+- public/content
+- public/research/_data.yml
+- raw-images (die werden automatisch verkleinert)

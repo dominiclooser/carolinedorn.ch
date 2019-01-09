@@ -5,3 +5,7 @@ globals:
   navigation: 
    -  title: research
       link: /research
+   -  title: nonacademic
+      link: /nonacademic
+   -  title: about
+      link: /about

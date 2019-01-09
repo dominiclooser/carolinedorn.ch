@@ -3,19 +3,18 @@ include _mixins
 
 block content
    header.page-heading
-      ul.page-title.color-on-hover-links
-         li: a(href='text') Text
-         li: a(href='web') Web
-         li: a(href='grafik') Grafik
+      h1.page-title= title
+      p.page-subtitle= subtitle
+         
    main.page-main
       .page-intro
-         p!= partial('texts/site-intro.md')
+         p!= partial('/content/index/intro.md')
          //- p.
          //-    Mein Name ist Dominic Looser und ich mache Webseiten, Bücher und 
          //-    Lesungen. Und noch ein paar Sachen mehr. Hallo!
       .page-content.grid.colored-cards
-         for filename in public.content.homepage_cards._contents
-            section.card!= partial('content/homepage_cards/'+filename)
+         for filename in public.content.index.cards._contents
+            section.card!= partial('/content/index/cards/' + filename)
 
          //- section.card
          //-    h2.card-title Nächste Auftritte
