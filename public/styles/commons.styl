@@ -184,6 +184,14 @@ p+.h2
             background: tertiary-color
 
 .card
+    @extends .spaced-paragraphs
     .button-wrapper
         display: flex 
         padding-top: var(--unit)
+    h2
+        @extends .card-title
+    img
+        @extends .card-image
+    p > a
+        @extends .arrow-link
+    

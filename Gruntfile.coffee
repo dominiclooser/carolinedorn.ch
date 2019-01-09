@@ -88,7 +88,7 @@ config =
             files: ['**/*.yml']
             tasks: ['yaml']
         images:
-            files: ['raw-images/**/*']
+            files: ['raw-images/*']
             tasks: ['responsive_images']
         texts:
             files: '~/text/ready/*'
@@ -102,6 +102,6 @@ module.exports = (grunt) ->
     time grunt
     jit grunt
     grunt.registerTask 'default', ['yaml', 'watch'] 
-    grunt.registerTask 'compile', ['exec:textimport', 'yaml','force:on', 'exec:harp','force:off', 'copy:main', 'stylus', 'postcss', 'coffee']
+    grunt.registerTask 'compile', ['yaml', 'force:on', 'exec:harp','force:off', 'copy:main', 'stylus', 'postcss', 'coffee']
     grunt.registerTask 'deploy', ['compile','copy:production', 'gh-pages:production']
     grunt.registerTask 'stage', ['compile','copy:stage', 'gh-pages:stage']

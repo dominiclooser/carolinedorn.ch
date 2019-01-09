@@ -1,0 +1,16 @@
+extends _default
+
+block content
+   .page-intro!= partial('/content/publications/intro.md')
+   ul.page-content.underline-on-hover-links.sites
+      for site in sites
+         li.site
+            .site-description
+               h2.h1.site-title=  site.title
+               if site.link
+                  p.h2: a(href=site.link).arrow-link Live
+               else
+                  p (offline)
+            a(href='/images/large/web/' + site.image, data-lightbox=site.title, data-title=site.title).site-image
+               img(src='/images/large/web/' + site.image)
+            

@@ -7,15 +7,18 @@ block content
          li: a(href='text') Text
          li: a(href='web') Web
          li: a(href='grafik') Grafik
-      h1.page-subtitle Design is Art for Loosers
    main.page-main
       .page-intro
-         p.
-            Mein Name ist Dominic Looser und ich mache Webseiten, Bücher und 
-            Lesungen. Und noch ein paar Sachen mehr. Hallo!
+         p!= partial('texts/site-intro.md')
+         //- p.
+         //-    Mein Name ist Dominic Looser und ich mache Webseiten, Bücher und 
+         //-    Lesungen. Und noch ein paar Sachen mehr. Hallo!
       .page-content.grid.colored-cards
-         section.card
-            h2.card-title Nächste Auftritte
+         for filename in public.content.homepage_cards._contents
+            section.card!= partial('content/homepage_cards/'+filename)
+
+         //- section.card
+         //-    h2.card-title Nächste Auftritte
          //- section.card
          //-    h2.card-title: a(href='grafik').underline-on-hover Grafik
          //-    section.card-section
@@ -51,11 +54,11 @@ block content
          //-       li: a(href='tel:+41787730105') 078 773 01 05
             
 
-block append scripts
-   script(src='/scripts/moment-with-locales.min.js')
-   script(src='/scripts/homepage.js')
-   script(src='/scripts/formatdates.js')
-   script(src='/scripts/lightbox.min.js')
+//- block append scripts
+   //- script(src='/scripts/moment-with-locales.min.js')
+   //- script(src='/scripts/homepage.js')
+   //- script(src='/scripts/formatdates.js')
+   //- script(src='/scripts/lightbox.min.js')
 
 
    

@@ -1,0 +1,8 @@
+extends ../_default
+
+block content
+   .page-intro!= partial('/content/research/intro.md') 
+   .page-content.grid.colored-cards
+      for filename in public.content.research.cards._contents
+         section.card!= partial('/content/research/cards/' + filename)
+      
