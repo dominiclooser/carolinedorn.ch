@@ -1,8 +1,11 @@
 - Benutzerkonto auf Github eröffnen (falls noch nicht vorhanden)
 - Benutzername mir mitteilen, damit ich dir das Repository freischalten kann
 - Git installieren
-- ssh keys einrichten. siehe hier: https://help.github.com/articles/which-remote-url-should-i-use/ 
-- Repository runterladen mit git clone git@github.com:dominiclooser/carolinedorn.ch.git
+- SSH-Keys einrichten. siehe hier: https://help.github.com/articles/which-remote-url-should-i-use/ 
+- Repository runterladen mit 
+```
+git clone git@github.com:dominiclooser/carolinedorn.ch.git
+```
 - Jetzt sollte das ganze Projekt im Ordner carolinedorn.ch sein
 
 Wir arbeiten immer im Branch 'develop'. Falls du im Branch 'master' bist, kommst du mit
