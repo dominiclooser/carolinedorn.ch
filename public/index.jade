@@ -1,0 +1,62 @@
+extends _default
+include _mixins
+
+block content
+   header.page-heading
+      ul.page-title.color-on-hover-links
+         li: a(href='text') Text
+         li: a(href='web') Web
+         li: a(href='grafik') Grafik
+      h1.page-subtitle Design is Art for Loosers
+   main.page-main
+      .page-intro
+         p.
+            Mein Name ist Dominic Looser und ich mache Webseiten, Bücher und 
+            Lesungen. Und noch ein paar Sachen mehr. Hallo!
+      .page-content.grid.colored-cards
+         section.card
+            h2.card-title Nächste Auftritte
+         //- section.card
+         //-    h2.card-title: a(href='grafik').underline-on-hover Grafik
+         //-    section.card-section
+         //-       img(src='/images/small/graphics/das-glueck.jpg')
+         //-    //- - lastgraphics = [graphics[0], graphics[1]]
+         //-    //- section.card-section.card-images
+         //-    //-    for graphic in lastgraphics
+         //-    //-       a(href='/images/graphics/large/' + graphic.filename, data-lightbox='lastgraphics', data-title=graphic.title)
+         //-    //-          img(src='/images/graphics/small/' + graphic.filename)
+         //-    section.card-section
+         //-       a(href='/grafik').arrow-link alle Grafiken
+         //- section.card
+         //-    h2.card-title Projekte
+         //-    ul.arrow-links
+         //-       //- li: a(href='/die-essenz-des-lebens') Die Essenz des Lebens
+         //-       li: a(href='http://diekrassetassegmbh.ch') Die Krasse Tasse GmbH
+         //-       li: a(href='/die-essenz-des-lebens') Die Essenz des Lebens
+         //-       li: a(href='http://einezwecklosewebseite.ch') Eine zwecklose Webseite
+         //-       li: a(href='https://facebook.com/AnalogeTage/') Analoge Tage
+         //-       li: a(href='http://tsnuk.me') TsnuK (inaktiv)
+         //-       li: a(href='http://cinemap.org') Cinemap (inaktiv)
+         //- section.card
+         //-    h2.card-title Dienstleistungen
+         //-    ul.arrow-links
+         //-       li: a(href='/web') Web: Design und Programmierung
+         //-       li: a(href='/grafik') Typographische Gestaltung
+         //-       li: a(href='/text') Lesungen und Performances
+         //- section.card
+         //-    h2.card-title Kontakt
+         //-    ul.arrow-links
+         //-       li: a(href='mailto:#{email}') Email
+         //-       li: a(href='https://www.facebook.com/dominic.looser') Facebook
+         //-       li: a(href='tel:+41787730105') 078 773 01 05
+            
+
+block append scripts
+   script(src='/scripts/moment-with-locales.min.js')
+   script(src='/scripts/homepage.js')
+   script(src='/scripts/formatdates.js')
+   script(src='/scripts/lightbox.min.js')
+
+
+   
+

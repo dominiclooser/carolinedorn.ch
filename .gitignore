@@ -1,0 +1,8 @@
+*.pyc
+*.DS_Store
+/node_modules
+_data.json
+.grunt
+www
+harp.json
+.dadaproject.toml

@@ -1,0 +1,7 @@
+globals:
+  logo_1: Caroline
+  logo_2: Dorn
+  email: TODO
+  navigation: 
+   -  title: research
+      link: /research
