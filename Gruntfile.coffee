@@ -40,7 +40,7 @@ config =
         stage:
             options:
                 base: 'www'
-                repo: 'git@github.com:dominiclooser/carolinedorn.ch-stage.git'
+                repo: 'git@github.com:dominiclooser/stage.carolinedorn.ch.git'
             src: '**/*'
 
     postcss:
