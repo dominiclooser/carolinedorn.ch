@@ -27,11 +27,11 @@ git clone git@github.com:dominiclooser/carolinedorn.ch.git
 - `git push` (pusht die aktuelle Version hoch auf den Server), auch wichtig!
 
 # Dein Content
-- harp.yml
-- public/_data.yml
-- public/content
-- public/research/_data.yml
-- raw-images (die werden automatisch verkleinert)
+- `harp.yml`: Globale Einstellungen, Navigation
+- `public/_data.yml`: Metainfos zu einzelnen Seiten
+- `public/content`: Grossteil des Contents. Alles was über einzelne Strings ausgeht.
+- `public/research/_data.yml`: Metainfos zu Seiten unter Research
+- `raw-images`: Bilder (werden automatisch verkleinert)
 
 # Lokaler Server
 Wenn du deine Seite lokal anschauen willst: 
