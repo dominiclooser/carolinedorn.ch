@@ -24,6 +24,7 @@
     "test": "psi dominiclooser.ch"
   },
   "dependencies": {
+    "harp": "^0.29.0",
     "imagesloaded": "latest",
     "jquery": "latest",
     "lightbox2": "^2.10.0",
