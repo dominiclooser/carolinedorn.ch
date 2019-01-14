@@ -27,10 +27,11 @@ git clone git@github.com:dominiclooser/carolinedorn.ch.git
 - `git push` (pusht die aktuelle Version hoch auf den Server), auch wichtig!
 
 # Dein Content
+Grundsätzlich kannst du Content in Markdown-Dateien (*.md) und YAML-Dateien (*.yml) editieren. 
 - `harp.yml`: Globale Einstellungen, Navigation
-- `public/_data.yml`: Metainfos zu einzelnen Seiten
-- `public/content`: Grossteil des Contents. Alles was über einzelne Strings ausgeht.
-- `public/research/_data.yml`: Metainfos zu Seiten unter Research
+- `_data.yml`: Metadaten zu Seiten in diesem Ornder
+- `cards/*.md`: Blocks/Cards
+- `intro.md`: Seiten-Intro
 - `raw-images`: Bilder (werden automatisch verkleinert)
 - doppelte Cards: Falls du zwei mal denselben Block(Card) hast, würde ich nur einen erstellen und mit symbolic links verknüpfen
 

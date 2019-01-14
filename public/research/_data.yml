@@ -7,24 +7,3 @@ exoplanets:
    description: TODO
    pagetitle: Exoplanets
    image: /images/small/test2.jpg
-
-publications: 
-   description: TODO
-   pagetitle: Publications
-   topics: 
-      -  title: Exoplanets
-         papers:
-            -  title: Title of Publication 1
-               authors: C.Dorn, A.Author, B.Author
-               journal: Journal, 123, 45 (2018)
-            -  title: Title of Publication 2
-               authors: C.Dorn, A.Author, B.Author
-               journal: Journal, 123, 45 (2018)
-      -  title: Evironmental Science
-         papers:
-            -  title: Title of Publication 1
-               authors: C.Dorn, A.Author, B.Author
-               journal: Journal, 123, 45 (2018)
-            -  title: Title of Publication 2
-               authors: C.Dorn, A.Author, B.Author
-               journal: Journal, 123, 45 (2018)

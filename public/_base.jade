@@ -10,9 +10,9 @@ html(lang='en')
       meta(charset='utf-8')
       block title
          if pagetitle
-            title= sitetitle
+            title= pagetitle + ' – ' + sitetitle
          else
-            title Dominic Looser: Text / Web / Grafik
+            title= sitetitle
       block description
          meta(name='description', content=description)
       meta(http-equiv='X-UA-Compatible', content='IE=edge')

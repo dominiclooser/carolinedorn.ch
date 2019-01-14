@@ -2,7 +2,7 @@ extends ../_default
 
 block content  
    main.page-main
-      .page-intro!= partial('../content/research/intro.md') 
+      .page-intro!= partial('intro.md') 
       .page-content.grid.colored-cards
-         for filename in public.content.research.cards._contents
-            section.card!= partial('../content/research/cards/' + filename)
+         for filename in public.research.cards._contents
+            section.card!= partial('cards/' + filename)

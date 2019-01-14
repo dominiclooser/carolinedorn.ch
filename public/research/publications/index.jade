@@ -1,0 +1,16 @@
+extends ../../_default
+
+block content
+   main.page-main
+      .page-intro!= partial('intro.md')
+      .page-content
+         for topic in topics
+            section.topic-section
+               h2.h2.topic-title= topic.title
+               ul.paper-list
+                  for paper in topic.papers
+                     li
+                        h3.paper-title= paper.title
+                        p= paper.authors
+                        p= paper.journal
+            

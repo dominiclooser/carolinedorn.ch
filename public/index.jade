@@ -8,13 +8,13 @@ block content
          
    main.page-main
       .page-intro
-         p!= partial('/content/index/intro.md')
+         p!= partial('intro.md')
          //- p.
          //-    Mein Name ist Dominic Looser und ich mache Webseiten, Bücher und 
          //-    Lesungen. Und noch ein paar Sachen mehr. Hallo!
       .page-content.grid.colored-cards
-         for filename in public.content.index.cards._contents
-            section.card!= partial('/content/index/cards/' + filename)
+         for filename in public.cards._contents
+            section.card!= partial('cards/' + filename)
 
          //- section.card
          //-    h2.card-title Nächste Auftritte
