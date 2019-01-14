@@ -2,6 +2,12 @@ index:
    description: TODO
    pagetitle: Research
 
+exoplanets:
+   layout: ../_topic
+   description: TODO
+   pagetitle: Exoplanets
+   image: /images/small/test2.jpg
+
 publications: 
    description: TODO
    pagetitle: Publications
