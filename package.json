@@ -3,7 +3,7 @@
   "version": "4.0.0",
   "devDependencies": {
     "autoprefixer": "latest",
-    "grunt": "latest",
+    "grunt": "^1.0.3",
     "grunt-contrib-coffee": "1.*",
     "grunt-contrib-copy": "latest",
     "grunt-contrib-stylus": "latest",
@@ -14,6 +14,7 @@
     "grunt-postcss": "latest",
     "grunt-responsive-images": "latest",
     "grunt-yaml": "latest",
+    "harp": "^0.29.0",
     "jit-grunt": "latest",
     "matchdep": "latest",
     "postcss-calc": "latest",
@@ -24,7 +25,6 @@
     "test": "psi dominiclooser.ch"
   },
   "dependencies": {
-    "harp": "^0.29.0",
     "imagesloaded": "latest",
     "jquery": "latest",
     "lightbox2": "^2.10.0",
