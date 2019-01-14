@@ -32,6 +32,7 @@ git clone git@github.com:dominiclooser/carolinedorn.ch.git
 - `public/content`: Grossteil des Contents. Alles was über einzelne Strings ausgeht.
 - `public/research/_data.yml`: Metainfos zu Seiten unter Research
 - `raw-images`: Bilder (werden automatisch verkleinert)
+- doppelte Cards: Falls du zwei mal denselben Block(Card) hast, würde ich nur einen erstellen und mit symbolic links verknüpfen
 
 # Lokaler Server
 Wenn du deine Seite lokal anschauen willst: 
