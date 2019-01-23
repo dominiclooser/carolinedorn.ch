@@ -1,4 +1,4 @@
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sem erat, cursus quis tortor id, dapibus aliquam tellus. 
+Besides my research on exoplanets, I do several projects outside of the University institution. Some projects, however, are clearly motivated by my thoughts about extrasolar worlds.
 
 
-Nulla vel enim suscipit, interdum ante ut, mollis urna. Aliquam porttitor imperdiet rhoncus. 
+Here is a selection of my recent projects.
