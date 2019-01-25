@@ -12,7 +12,7 @@ footer
 
 ////////////////
 // typography //
-///////////////
+////////////////
 
 .h1
     font-family: heading-font
@@ -47,10 +47,9 @@ p+.h2
         margin-top: var(--unit)
     
 
-
-///////////
-// header
-///////////
+////////////
+// header //
+////////////
 
 .mobile-page-header
     @media desktop-nav
@@ -69,7 +68,7 @@ p+.h2
     top: 0
     height: 100vh
     width: 100vw
-    background: primary-color
+    background: colors[0]
     z-index: 10
     left: 0
     font-family heading-font
@@ -102,12 +101,6 @@ p+.h2
     font-family: heading-font
     text-transform: uppercase
     margin-right: var(--unit)
-    span:nth-child(3n+1)
-        color: primary-color
-    span:nth-child(3n+2)
-        color: secondary-color
-    span:nth-child(3n+3)
-        color: tertiary-color
 
 .desktop-page-header
     @extends .color-on-hover-links
@@ -196,12 +189,9 @@ p+.h2
 
 .colored-cards
     .card
-        &:nth-child(3n+1)
-            background: primary-color
-        &:nth-child(3n+2)
-            background: secondary-color
-        &:nth-child(3n+3)
-            background: tertiary-color
+        for i in (1..6)
+            &:nth-child({6}n+{i})
+                background: colors[i]
 
 .card
     @extends .spaced-paragraphs
