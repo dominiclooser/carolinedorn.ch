@@ -90,9 +90,6 @@ config =
         images:
             files: ['raw-images/*']
             tasks: ['responsive_images']
-        texts:
-            files: '~/text/ready/*'
-            tasks: 'exec:textimport'
         all:
             files: ['**/*.*']
             tasks: []
