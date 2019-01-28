@@ -1,19 +1,34 @@
-extends _default
+extends _base
+include ../mixins
 
-block content
-   header.page-heading
-      h1.page-title= title
-      p.page-subtitle= subtitle
-         
-   main.page-main
-      .page-intro
-         p!= partial('intro.md')
-         //- p.
-         //-    Mein Name ist Dominic Looser und ich mache Webseiten, Bücher und 
-         //-    Lesungen. Und noch ein paar Sachen mehr. Hallo!
-      .page-content.grid.colored-cards
-         for filename in public.cards._contents
-            section.card!= partial('cards/' + filename)
+block main
+   .full-width-wrapper
+      +navigation
+     
+      header.page-heading
+         h1.page-title= title
+         p.page-subtitle= subtitle
+            
+      main.page-main
+         .page-intro
+            p!= partial('intro.md')
+         .page-content.grid.colored-cards
+            for filename in public.cards._contents
+               section.card!= partial('cards/' + filename)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
          //- section.card
          //-    h2.card-title Nächste Auftritte
