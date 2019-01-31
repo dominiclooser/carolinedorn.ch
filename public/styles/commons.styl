@@ -79,7 +79,7 @@ p+.h2
         font-size: var(--xxxl)
     li:hover
         background: white
-        color: primary-color
+        color: colors[0]
     .close
         margin: var(--two-units) 0 var(--unit) 0 
         stroke: white
@@ -189,7 +189,7 @@ p+.h2
 
 .colored-cards
     .card
-        for i in (1..6)
+        for i in (0..6)
             &:nth-child({6}n+{i})
                 background: colors[i]
 
