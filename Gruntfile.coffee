@@ -8,10 +8,10 @@ config =
     responsive_images:
         options:
             engine: 'im'
-            newFilesOnly: true
+            newFilesOnly: false
         'small':
             options:
-                sizes: [{rename: false, width: 400}]
+                sizes: [{rename: false, width: 500}]
             files: [
                     expand: true
                     cwd: 'raw-images'
@@ -29,7 +29,6 @@ config =
             ]
 
     exec:
-        textimport: 'bin/import-texts' 
         harp: 'harp compile'
 
     'gh-pages':
