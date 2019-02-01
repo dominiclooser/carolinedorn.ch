@@ -1,5 +1,6 @@
 body
     min-height: 100%
+    line-height: var(--line-height)
 
 footer
     font-size: var(--s)
@@ -14,6 +15,10 @@ footer
 // typography //
 ////////////////
 
+.h1, .h2, .h3
+    font-family: heading-font
+    line-height: heading-line-height
+
 .h1
     font-family: heading-font
     font-size: var(--xxxl)
@@ -22,18 +27,17 @@ footer
     @media big-heading
         font-size: var(--xxxxxxl)
     line-height: heading-line-height
-    text-transform: uppercase
+    // text-transform: uppercase
 
 .h2
     font-size: var(--xl)
-    font-family: heading-font
+    // text-transform: uppercase
 
 p+.h2
     margin-top: var(--unit)
 
 .h3
     font-size: var(--l)
-    font-family: heading-font
 
 .plustext-text
 .textplus-text
@@ -199,9 +203,12 @@ p+.h2
         display: flex 
         padding-top: var(--unit)
     h2
-        @extends .card-title
+        @extends .h2
+        margin-top: var(--semi-unit)
+        margin-bottom: calc(1.5 * var(--unit))
     img
-        @extends .card-image
+        margin-bottom: var(--semi-unit)
     p > a
         @extends .arrow-link
+
     

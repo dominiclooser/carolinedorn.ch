@@ -1,4 +1,7 @@
-// breakpoints
+/////////////////
+// breakpoints //
+/////////////////
+
 textplus = '(min-width: 980px)'
 large-text = '(min-width: 800px)'
 two-columns = '(min-width: 500px)'
@@ -10,19 +13,21 @@ big-heading = large-text
 big-mobile = '(min-width: 375px)'
 two-columns-sites = two-columns
 
+////////////////
+// typography //
+////////////////
 
-// typography
 body-font = Inconsolata
-heading-font = 'Druk Text Web' //Druk Wide //Bebas Neue //Rubik //Larsseit //Anton //Rubik  //Roboto //Vollkorn  //'Libre Franklin'
+heading-font = 'Druk Text Web'
 text-width = 700px
-heading-line-height = 0.9
+heading-line-height = 1.2
 :root
     --scale-factor: 1.2
     // --heading-scale-factor: 2
     --line-height: 1.4
     --font-size: 17px
     @media large-text
-        --font-size: 21px
+        --font-size: 20px
     --unit: calc(var(--line-height) * var(--font-size))
     --two-units: calc(2*var(--unit))
     --three-units: calc(3*var(--unit))
@@ -63,4 +68,4 @@ baseBorder = 1px solid text-color
 max-page-width = text-width//1200px
 list-separator = ' '
 separated-list-margin = 5px
-min-column-width = 15em
+min-column-width = 17em
