@@ -16,9 +16,15 @@ mixin navigation(logo=false)
          +logo
       p.open-nav Menu
    nav.mobile-nav
-      svg.close(viewBox='0 0 100 100')
-         line(x1=10, y1=10, x2=90, y2=90)
-         line(x1=10, y1=90, x2=90, y2=10)
+      .close-wrapper
+         svg.close(viewBox='0 0 100 100')
+            line(x1=10, y1=10, x2=90, y2=90)
+            line(x1=10, y1=90, x2=90, y2=10)
       ul.stacked-list
          for item in navigation
-            a(href=item.link, class=current.path[0] == item.link ? 'current-link' : ''): li= item.title
+            li.navgroup
+               a(href=item.link, class='navitem')= item.title
+               if item.subnav
+                  ul.stacked-list.subnav
+                     for subitem in item.subnav
+                        a(href=subitem.link, class='navitem'): li= subitem.title

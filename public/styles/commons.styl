@@ -76,19 +76,33 @@ p+.h2
     z-index: 10
     left: 0
     font-family heading-font
+    padding: var(--three-units) 0
     color: white
-    text-align: center
-    li
+    .navgroup
+        margin-bottom: calc((-0.7) * var(--unit))
+    .navitem
+        padding-left: var(--unit)
         line-height: 1
-        font-size: var(--xxxl)
-    li:hover
-        background: white
-        color: colors[0]
+        font-size: var(--xxxxl)
+        display: block
+        &:hover
+            background: white
+            color: colors[0]
+            li
+                background: white
+                color: colors[0]
+    .subnav
+        margin-top: 0.3em
+        .navitem
+            font-size: var(--xl)
+            line-height: var(--semi-unit)
+    .close-wrapper
+        text-align: center
+        margin-bottom: var(--two-units)
     .close
-        margin: var(--two-units) 0 var(--unit) 0 
         stroke: white
-        stroke-width: 6
-        height: var(--unit)
+        stroke-width: 8
+        height: calc(1.5*var(--unit))
         cursor: pointer
 
 .open-nav

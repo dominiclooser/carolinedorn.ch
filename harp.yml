@@ -6,6 +6,11 @@ globals:
   navigation: 
    -  title: research
       link: /research
+      subnav:
+         -  title: exoplanets
+            link: /research/exoplanets
+         -  title: publications
+            link: /research/publications
    -  title: nonacademic
       link: /nonacademic
    -  title: about
