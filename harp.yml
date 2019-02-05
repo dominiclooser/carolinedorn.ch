@@ -3,15 +3,18 @@ globals:
   logo_1: 'Caroline ' 
   logo_2: Dorn
   email: TODO
-  navigation: 
-   -  title: research
-      link: /research
-      subnav:
-         -  title: exoplanets
-            link: /research/exoplanets
-         -  title: publications
-            link: /research/publications
-   -  title: nonacademic
-      link: /nonacademic
-   -  title: about
-      link: /about
+  nav:
+      research: 
+         title: Research
+         link: /research
+         subnav:
+            -  title: Exoplanets
+               link: /research/exoplanets
+            -  title: Publications
+               link: /research/publications
+      nonacademic: 
+         title: Nonacademic
+         link: /nonacademic
+      about: 
+         title: About
+         link: /about

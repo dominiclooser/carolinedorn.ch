@@ -119,16 +119,17 @@ p+.h2
     font-family: heading-font
     text-transform: uppercase
     margin-right: var(--unit)
+    color: colors[0]
 
 .desktop-page-header
     @extends .color-on-hover-links
     letter-spacing: 0.05em
-    border-bottom: 2px solid dark
-    text-transform: uppercase
+    border-bottom: 1px solid dark
     font-family: heading-font
     line-height: var(--unit)
     vertical-align: bottom 
     padding: var(--semi-unit) 0
+    padding-bottom: var(--quarter-unit)
     @media mobile-nav
         display: none
     
@@ -137,6 +138,15 @@ p+.h2
     ul
         display: inline
         separated-list(separator: '•')
+    li:hover
+        color: colors[0]
+
+.desktop-subnav
+    font-family: body-font
+    ul
+        separated-list(separator: '•')
+    li:hover
+        color: colors[3]
 
 .page-heading
     margin-top: var(--three-units)
