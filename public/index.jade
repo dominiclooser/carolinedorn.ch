@@ -15,6 +15,8 @@ block main
          .page-content.grid.colored-cards
             for filename in public.cards._contents
                section.card!= partial('cards/' + filename)
+      
+      include ../includes/footer
 
 
 

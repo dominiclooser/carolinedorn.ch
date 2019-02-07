@@ -1,7 +1,6 @@
 extends _base
 include ../includes/mixins
 
-
 block main
    .full-width-wrapper
       +navigation(true)
@@ -9,4 +8,5 @@ block main
          header.page-heading
             h1.page-title= pagetitle
       block content
+      include ../includes/footer
 
