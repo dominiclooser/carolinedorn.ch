@@ -1,6 +1,7 @@
 ## Lectures
 
 ![image alt title](/images/small/Lichthof.jpg)
+<sub><sup>Image: UZH, Frank Brüderli</sup></sub>  
 
 I have given lectures for diverse audiences in natural science and art. Here, I reveal the ones that address the natural science audience:
 

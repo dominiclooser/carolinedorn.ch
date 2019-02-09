@@ -1,4 +1,7 @@
-## Staging grief  
+## Training & Lost_INN
+
+![image alt title](/images/small/tisch.jpg)
+<sub><sup>Image: hoelb/hoeb</sup></sub>  
 
 The artist duo hoelb/hoeb
 
