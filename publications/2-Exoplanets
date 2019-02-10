@@ -160,12 +160,3 @@
   year={2015},
   publisher={EDP Sciences}
 }
-@article{dorn2013conditioning,
-  title={Conditioning of stochastic 3-D fracture networks to hydrological and geophysical data},
-  author={Dorn, Caroline and Linde, Niklas and Le Borgne, Tanguy and Bour, Olivier and De Dreuzy, Jean-Raynald},
-  journal={Advances in water resources},
-  volume={62},
-  pages={79--89},
-  year={2013},
-  publisher={Elsevier}
-}
