@@ -32,10 +32,19 @@
     font-weight:bold
 
 .topic-title
+    @extends .h2
     margin-bottom: var(--unit)
-
-.topic-section+.topic-section
-    margin-top: var(--two-units)
+    
+#publications
+    @extends .text-wrapper
+    section + section
+        margin-top: var(--two-units)
+    ul
+        @extends .paper-list
+    h2
+        @extends .topic-title
+    h3
+        @extends .paper-title
 
 
 ///////////
