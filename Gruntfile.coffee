@@ -30,6 +30,7 @@ config =
 
     exec:
         harp: 'harp compile'
+        pubimport: 'pubimport publications includes/publications.html'
 
     'gh-pages':
         production:
@@ -83,6 +84,10 @@ config =
     watch:
         options:
             livereload: true
+        pubimport:
+            files: ['publications/*.*']
+            tasks: ['exec:pubimport']
+
         yaml:
             files: ['**/*.yml']
             tasks: ['yaml']
@@ -97,7 +102,7 @@ module.exports = (grunt) ->
     grunt.initConfig config
     time grunt
     jit grunt
-    grunt.registerTask 'default', ['yaml', 'watch'] 
-    grunt.registerTask 'compile', ['yaml', 'force:on', 'exec:harp','force:off', 'copy:main', 'stylus', 'postcss', 'coffee']
+    grunt.registerTask 'default', ['compile', 'watch'] 
+    grunt.registerTask 'compile', ['exec:pubimport', 'yaml', 'force:on', 'exec:harp', 'force:off', 'copy:main', 'stylus', 'postcss', 'coffee']
     grunt.registerTask 'deploy', ['compile','copy:production', 'gh-pages:production']
     grunt.registerTask 'stage', ['compile','copy:stage', 'gh-pages:stage']

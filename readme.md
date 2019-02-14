@@ -2,6 +2,7 @@
 - Git
 - npm/node
 - harp und grunt durch `npm install` im Projektordner
+- publication import Script mit `pip install pubimport`
 
 # Git-Repo runterladen
 - Benutzerkonto auf Github eröffnen (falls noch nicht vorhanden)
@@ -45,4 +46,10 @@ Die Seite ist dann auf localhost:9000 im Browser.
 # Staging
 - `npx grunt stage` lädt die aktuelle Seite auf `stage.carolinedorn.ch`. 
 
+
 npx grunt responsive_images
+
+# Publications
+- Neue bibtext-Files im Ordner Publications sollten automatisch importiert werden. Falls das nicht klappt:
+  `npx grunt exec:pubimport` macht das manuell
+
