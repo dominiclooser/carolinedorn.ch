@@ -44,3 +44,5 @@ Die Seite ist dann auf localhost:9000 im Browser.
 
 # Staging
 - `npx grunt stage` lädt die aktuelle Seite auf `stage.carolinedorn.ch`. 
+
+npx grunt responsive_images
