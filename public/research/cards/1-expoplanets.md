@@ -11,4 +11,6 @@ Astronomers have made tremendous achievements to find and characterize exoplane
 zation demands interdisciplinary collaboration in order for the field to reach its potential role
 in characterizing planets. My research advances the characterization of both individual planets and planet distributions.
 
+[read more](/research/exoplanets)
+
 [A study about exotic Super-Earths](https://www.news.uzh.ch/de/articles/2018/Exoplanets.html)

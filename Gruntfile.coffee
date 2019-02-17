@@ -103,6 +103,6 @@ module.exports = (grunt) ->
     time grunt
     jit grunt
     grunt.registerTask 'default', ['compile', 'watch'] 
-    grunt.registerTask 'compile', ['exec:pubimport', 'yaml', 'force:on', 'exec:harp', 'force:off', 'copy:main', 'stylus', 'postcss', 'coffee']
+    grunt.registerTask 'compile', [ 'yaml', 'force:on', 'exec:harp', 'force:off', 'copy:main', 'stylus', 'postcss', 'coffee'] #'exec:pubimport'
     grunt.registerTask 'deploy', ['compile','copy:production', 'gh-pages:production']
     grunt.registerTask 'stage', ['compile','copy:stage', 'gh-pages:stage']

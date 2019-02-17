@@ -1,4 +1,4 @@
-## [Environmental Science & Hydrogeophysics](/research)
+## Environmental Science & Hydrogeophysics
 
 ![image alt title](/images/small/PhD.jpg)
 

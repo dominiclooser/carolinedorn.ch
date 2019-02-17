@@ -1,4 +1,4 @@
-## [Geophysical Imaging](/research)
+## Geophysical Imaging
 
 ![image alt title](/images/small/NZ1.jpg)
 

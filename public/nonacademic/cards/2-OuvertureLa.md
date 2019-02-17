@@ -4,7 +4,7 @@
 
 <sub><sup>Image: Nelly Rodriguez</sup></sub> 
 
-The artists of mercimax invite for a travel around the Sun. On our journey, I am sharing my views on the nightsky. During our travel, we encounter the four seasons and wander through the starry night, and enjoy the attractions of the finite world, and contemplating time, space, and the unlikely existence of humanity on a small blue planet somewhere in the universe.
+The artists of mercimax invite for a travel around the Sun. On our journey, I am sharing my views on the nightsky. During our travel, we encounter the four seasons and wander through the starry night, and enjoy the attractions of the finite world.
 
 [mercimax](http://www.mercimax.ch/texte/daten)
 
