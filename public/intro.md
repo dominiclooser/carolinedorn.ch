@@ -1,4 +1,3 @@
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sem erat, cursus quis tortor id, dapibus aliquam tellus. 
+Hi there and welcome! Have a look around. You can find a selection of my work and projects here.
 
-
-Nulla vel enim suscipit, interdum ante ut, mollis urna. Aliquam porttitor imperdiet rhoncus. 
+Maybe we will also see each other in real life. If you are in Zurich this is quite likely.

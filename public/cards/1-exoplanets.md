@@ -3,6 +3,4 @@
 ![image alt title](/images/small/Trappist.jpg)
 <sub><sup>Image: NASA/JPL-Caltech</sup></sub> 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sem erat, cursus quis tortor id, dapibus aliquam tellus. 
-
-Nulla vel enim suscipit, interdum ante ut, mollis urna. Aliquam porttitor imperdiet rhoncus.
+Exoplanet research is one of my big passions. You can find here my publications and some thoughts on this young branch of research. 

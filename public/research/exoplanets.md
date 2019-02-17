@@ -1,16 +1,15 @@
-In kreativen Momenten schreibe ich <a href='text'>Texte</a> oder gestalte <a href='shop'>T&#8209;Shirts</a>. In weniger kreativen Momenten schlafe ich oder esse Champignons. Die mag ich lieber als Tomaten. 
+In my research, I try to find out what exoplanets are made of. How different are these distant worlds from our Earth and the other planets in the Solar System? Could there be a second Earth-planet in our stellar neighbourhood? What can we learn from the diversity of planets about their formation history?
 
-Ich besitze ein blaues Schaf. Es ist mein wertvollster Besitz, nachdem ich meine CD von den Goldenen Zitronen aus Versehen verschenkt habe. 
+## What are exoplanets?
 
-## Krasse Fakten
+Exoplanets are planets outside the Solar System that orit other stars. The star of our system is the Sun. 
 
-Abgeschlossenes Studium der Mathematik, der deutschen Linguistik und der Informatik an der Universität Zürich. Forschung und Entwicklung in angewandter Logik. 
+The majority of detected exoplanets cannot be seen directly. However, these planets influence the light from their host stars which reaches us on Earth. The alterations of stellar light can thus tell us about their hosted exoplanets. 
 
-Weiterbildungen in Typographie, Impro-Theater, Drehbuch-Schreiben.  
+## Which data carries information
 
-## Krasse Skills
+We often use mass and size of a planet and physical models to tell whether their interiors are dominated by rock or gas etc. In my work, I investigate a series of other possible constraints: stellar composition, evolutionary considerations, system architecture, age, etc.  
 
-Auge und Händchen für minimales Typo-lastiges Design. Entwicklung und Design von Webseiten, statisch oder dynamisch, mit oder ohne CMS. HTML, CSS, Javascript, Python und solche Sachen. 
+## Will we ever reach out to other worlds?
 
-Ich kann ausserdem Mathematik, deutsche Grammatik und allerlei anderen zwecklosen Shizzle beibringen. 
-
+No. We belong to Earth. Enjoy this place!

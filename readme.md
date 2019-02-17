@@ -47,7 +47,7 @@ Die Seite ist dann auf localhost:9000 im Browser.
 - `npx grunt stage` lädt die aktuelle Seite auf `stage.carolinedorn.ch`. 
 
 for the images
-- npx grunt responsive_images
+- `npx grunt responsive_images`
 
 # Publications
 - Neue bibtext-Files im Ordner Publications sollten automatisch importiert werden. Falls das nicht klappt:
