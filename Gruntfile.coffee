@@ -8,7 +8,7 @@ config =
     responsive_images:
         options:
             engine: 'im'
-            newFilesOnly: false
+            newFilesOnly: true
         'small':
             options:
                 sizes: [{rename: false, width: 500}]
