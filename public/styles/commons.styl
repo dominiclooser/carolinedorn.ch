@@ -231,9 +231,11 @@ p+.h2
         margin-bottom: calc(1.5 * var(--unit))
         a
             @extends .underline-on-hover
-        
-    img
-        margin-bottom: var(--semi-unit)
+    figure, img
+        margin-bottom: var(--unit)
+    figcaption
+        margin-top: calc((-0.8)*var(--unit))
+        font-size: var(--xs)
     p > a
         @extends .arrow-link
 
