@@ -85,9 +85,8 @@ config =
         options:
             livereload: true
         pubimport:
-            files: ['publications/*.*']
+            files: ['publications/*']
             tasks: ['exec:pubimport']
-
         yaml:
             files: ['**/*.yml']
             tasks: ['yaml']
