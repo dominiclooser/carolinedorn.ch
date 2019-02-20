@@ -2,7 +2,7 @@ In my research, I try to find out what exoplanets are made of. How different are
 
 ## What are exoplanets?
 
-Exoplanets are planets outside the Solar System that orit other stars. The star of our system is the Sun. 
+Exoplanets are planets outside the Solar System that orbit other stars. The star of our system is the Sun. 
 
 The majority of detected exoplanets cannot be seen directly. However, these planets influence the light from their host stars which reaches us on Earth. The alterations of stellar light can thus tell us about their hosted exoplanets. 
 
