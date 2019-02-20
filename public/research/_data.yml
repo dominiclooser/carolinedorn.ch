@@ -1,9 +1,7 @@
 index:
-   description: TODO
    pagetitle: Research
 
 exoplanets:
    layout: ../_topic
-   description: TODO
    pagetitle: Exoplanets
    image: /images/small/pressrelease.jpg

@@ -1,5 +1,6 @@
 globals:
   sitetitle: 'Caroline Dorn' # wird im Browser und bei Google angezeigt
+  description: 'hallo hallo'
   logo_1: 'Caroline ' 
   logo_2: Dorn
   email: TODO
